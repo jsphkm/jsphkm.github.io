@@ -5,8 +5,7 @@
 // }
 
 // Portfolio.prototype = {
-
-//   init: function() {
+//   init: function () {
 //     // settings is available through s now
 //     s = this.settings;
 //     //this.bindUIActions();
@@ -22,8 +21,8 @@
 //   }
 // }
 
-// function loadmaster(){
-//   (new Portfolio).init();
+// function loadmaster() {
+//   (new Portfolio()).init();
 // }
 
-window.addEventListener('load', loadmaster());
+// window.addEventListener('load', loadmaster());
