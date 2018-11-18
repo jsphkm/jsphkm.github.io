@@ -185,8 +185,10 @@ h1 {
 }
 
 .work-link-github-icon {
-  width: 5vmin;
-  height: 5vmin;
+  width: 3vw;
+  height: 3vw;
+  min-width: 30px;
+  min-height: 30px;
 }
 
 .work-link-live {
