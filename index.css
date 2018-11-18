@@ -83,19 +83,19 @@ h1 {
 
 .hero-social li a {
   padding: 0 5px; 
-}
-
-.hero-social-image {
-  height: 30px;
   filter: grayscale(100%);
   opacity: 0.5;
   transition: filter 0.2s, opacity 0.2s;
 }
 
-.hero-social-image:hover, .hero-social-image:focus {
+.hero-social li a:hover, .hero-social li a:focus {
   opacity: 1;
   filter: none;
   transition: filter 0.1s, opacity 0.1s;
+}
+
+.hero-social-image {
+  height: 30px;
 }
 
 .work-li {
@@ -137,14 +137,14 @@ h1 {
 }
 
 .work-title {
-  font-size: 5vmin;
+  font-size: 195%;
   font-weight: 600;
   display: flex;
   justify-content: center;
 }
 
 .work-subtitle {
-  font-size: 2vmin;
+  font-size: 100%;
   color: #FFA70E;
   display: flex;
   justify-content: center;
@@ -186,18 +186,12 @@ h1 {
 }
 
 .work-link-github-icon {
-  width: 4vmin;
-  height: 4vmin;
-}
-
-.work-link-website-icon {
-  width: 4vmin;
-  height: 4vmin;
+  width: 5vmin;
+  height: 5vmin;
 }
 
 .work-link-live {
-  font-size: 2.5vmin;
-  margin: 15px 5px;
+  text-align: center;
 }
 
 .work-link-repo {
