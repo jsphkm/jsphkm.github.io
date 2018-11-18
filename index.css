@@ -146,8 +146,7 @@ h1 {
 .work-subtitle {
   font-size: 100%;
   color: #FFA70E;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .work-info-container {
