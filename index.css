@@ -191,7 +191,10 @@ h1 {
 }
 
 .work-link-live {
-  text-align: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .work-link-repo {
