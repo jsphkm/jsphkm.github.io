@@ -1,5 +1,5 @@
 # Portfolio
-Portfolio of Joseph Kim's works
+Portfolio of Joseph Kim's full stack web development
 
 ## Built With
 - HTML5
