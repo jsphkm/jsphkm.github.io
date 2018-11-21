@@ -161,6 +161,17 @@ h1 {
   padding: 0 5px;
 }
 
+.work-live {
+  color: #FFA70E;
+  text-decoration: underline;
+  padding: 0 5px;
+}
+
+.work-live:hover, .work-live:focus {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .work-links {
   display: flex;
   flex-direction: row;
@@ -200,6 +211,10 @@ h1 {
 
 .work-link-repo {
   margin: 15px;
+}
+
+.work-description {
+  margin-top: 20px;
 }
 
 @media screen and (min-width: 985px) {
