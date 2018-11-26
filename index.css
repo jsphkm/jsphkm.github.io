@@ -54,7 +54,7 @@ h1 {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow-y: auto;
 }
 
 .hero-message {
