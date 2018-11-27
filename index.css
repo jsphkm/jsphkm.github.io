@@ -218,6 +218,10 @@ h1 {
   margin-top: 20px;
 }
 
+.tech {
+  font-weight: 700;
+}
+
 @media screen and (min-width: 985px) {
   .hero-container {
     position: fixed;
