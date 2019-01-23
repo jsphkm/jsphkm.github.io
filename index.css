@@ -178,11 +178,10 @@ h1 {
 .work-links {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  position: absolute;
+  margin-top: 40px;
   bottom: 20px;
-  right: 20px;
 }
 
 .work-links a {
@@ -190,6 +189,8 @@ h1 {
   align-items: center;
   opacity: 0.8;
   transition: opacity 0.2s, border-bottom 0.2s;
+  border: 2px solid rgba(255,255,255,0.5);
+  border-radius: 25px;
 }
 
 .work-links a:focus, .work-links a:hover {
@@ -213,7 +214,7 @@ h1 {
 }
 
 .work-link-repo {
-  margin: 15px;
+  padding: 10px 15px;
 }
 
 .work-description {
