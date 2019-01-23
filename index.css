@@ -153,7 +153,6 @@ h1 {
 }
 
 .work-info-container {
-  padding: 0 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
