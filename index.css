@@ -176,20 +176,21 @@ h1 {
 
 .work-links {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  margin-top: 40px;
-  bottom: 20px;
+  margin-top: 20px;
 }
 
 .work-links a {
   display: flex;
   align-items: center;
+  text-align: center;
   opacity: 0.8;
   transition: opacity 0.2s, border-bottom 0.2s;
   border: 2px solid rgba(255,255,255,0.5);
   border-radius: 25px;
+  margin-top: 20px;
 }
 
 .work-links a:focus, .work-links a:hover {
