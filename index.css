@@ -176,10 +176,11 @@ h1 {
 
 .work-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  flex-wrap: wrap;
 }
 
 .work-links a {
