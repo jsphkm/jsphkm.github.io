@@ -167,6 +167,9 @@ h1 {
   color: #FFA70E;
   text-decoration: underline;
   padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .work-live:hover, .work-live:focus {
