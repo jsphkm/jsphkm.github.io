@@ -158,8 +158,8 @@ h1 {
   max-width: 460px;
 }
 
-.work-meetup-image {
-  width: 90%;
+.work-email-image {
+  width: 80%;
   height: 100%;
   max-width: 460px;
 }
@@ -254,7 +254,7 @@ h1 {
   font-weight: 700;
 }
 
-.gradlabs {
+.gradlabs, .emails {
   overflow: auto;
   max-height: 460px;
   max-width: 380px;
