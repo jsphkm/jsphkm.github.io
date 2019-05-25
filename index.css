@@ -156,7 +156,7 @@ h1 {
   font-weight: 600;
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: -45px;
 }
 
 .project-info-container {
@@ -236,7 +236,7 @@ h1 {
 }
 
 .project-image-container {
-  width: 300px;
+  width: 400px;
   filter: drop-shadow(0 35px 25px rgba(0,0,0,0.6));
 }
 

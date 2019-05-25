@@ -68,7 +68,7 @@ const generateCard = ({
 const renderProjects = () => {
   const cards = [
     {
-      imgsrc: './img/new/blog.png',
+      imgsrc: './img/projects/blog.png',
       title: 'Markdown Blog',
       descriptions: [
         'SSR blog with syntax highlighting',
@@ -81,7 +81,7 @@ const renderProjects = () => {
       },
     },
     {
-      imgsrc: './img/new/medium.png',
+      imgsrc: './img/projects/medium.png',
       title: 'Responsive Emails',
       descriptions: [
         'Reproduction of three emails.',
@@ -93,7 +93,7 @@ const renderProjects = () => {
       },
     },
     {
-      imgsrc: './img/new/gradlabs.png',
+      imgsrc: './img/projects/gradlabs.png',
       title: 'Gradlabs',
       descriptions: [
         'Developed a corporate website for a client.',
@@ -105,7 +105,7 @@ const renderProjects = () => {
       },
     },
     {
-      imgsrc: './img/new/colorpicker.png',
+      imgsrc: './img/projects/colorpicker.png',
       title: 'Colorpicker',
       descriptions: [
         'Create color palettes on the web.',
@@ -118,7 +118,7 @@ const renderProjects = () => {
       },
     },
     {
-      imgsrc: './img/new/textbottle.png',
+      imgsrc: './img/projects/textbottle.png',
       title: 'Textbottle',
       descriptions: [
         'Write and view articles on the web.',
@@ -130,7 +130,7 @@ const renderProjects = () => {
       },
     },
     {
-      imgsrc: './img/new/minimap.png',
+      imgsrc: './img/projects/minimap.png',
       title: 'MiniMaps',
       descriptions: [
         'Look up drive times quickly on the web.',
