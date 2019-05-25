@@ -152,7 +152,7 @@ h1 {
 }
 
 .info-title {
-  font-size: 195%;
+  font-size: 30px;
   font-weight: 600;
   display: flex;
   justify-content: center;
@@ -171,6 +171,7 @@ h1 {
 }
 
 .info-livelink {
+  width: 300px;
   opacity: 0.8;
   border: 2px solid rgba(255,255,255,0.8);
   text-decoration: none;
@@ -220,6 +221,9 @@ h1 {
 
 .info-description {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tech {
@@ -235,8 +239,6 @@ h1 {
   width: 300px;
   filter: drop-shadow(0 35px 25px rgba(0,0,0,0.6));
 }
-
-
 
 @media screen and (min-width: 985px) {
   .hero-container {
