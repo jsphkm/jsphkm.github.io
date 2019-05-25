@@ -111,51 +111,38 @@ h1 {
   align-items: center;
 }
 
+/* Alternative Colors */
+/* background-image: linear-gradient(180deg, #64b9ff, #14395d); */
+
 #projects-ul li:nth-child(1) {
   background-image: -webkit-linear-gradient(180deg, #44f9dd, #650010);
-  /* background-image: linear-gradient(180deg, #64b9ff, #14395d); */
-  background-image: linear-gradient(180deg, #a04, #500);
+  background-image: linear-gradient(180deg, #64b9ff, #14395d);
 }
 
 #projects-ul li:nth-child(2) {
   background-image: -webkit-linear-gradient(180deg, #44f9dd, #650010);
-  /* background-image: linear-gradient(180deg, #64b9ff, #14395d); */
-  background-image: linear-gradient(180deg, #5bb, #023);
+  background-image: linear-gradient(180deg, #a04, #500);
 }
 
 #projects-ul li:nth-child(3) {
+  background-image: -webkit-linear-gradient(180deg, #44f9dd, #650010);
+  
+  background-image: linear-gradient(180deg, #5bb, #023);
+}
+
+#projects-ul li:nth-child(4) {
   background-image: -webkit-linear-gradient(180deg, #ff492d, #650010);
   background-image: linear-gradient(180deg, #ff492d, #650010);
 }
 
-#projects-ul li:nth-child(4) {
+#projects-ul li:nth-child(5) {
   background-image: -webkit-linear-gradient(180deg, #507bf9, #120123);
   background-image: linear-gradient(180deg, #507bf9, #120123);
 }
 
-#projects-ul li:nth-child(5) {
+#projects-ul li:nth-child(6) {
   background-image: -webkit-linear-gradient(180deg, #f2cdad, #04493f);
   background-image: linear-gradient(180deg, #f2cdad, #04493f);
-}
-
-.work-iphone-image {
-  filter: drop-shadow(8px 25px 20px rgba(0,0,0,0.7));
-  width: 40%;
-  height: 100%;
-  max-width: 240px;
-}
-
-.work-imac-image {
-  filter: drop-shadow(0 35px 15px rgba(0,0,0,0.8));
-  width: 80%;
-  height: 100%;
-  max-width: 460px;
-}
-
-.work-gradlabs-image {
-  width: 80%;
-  height: 100%;
-  max-width: 460px;
 }
 
 .project-image {
@@ -169,12 +156,7 @@ h1 {
   font-weight: 600;
   display: flex;
   justify-content: center;
-}
-
-.work-subtitle {
-  font-size: 100%;
-  color: #FFA70E;
-  text-align: center;
+  margin-top: 15px;
 }
 
 .project-info-container {
@@ -189,16 +171,20 @@ h1 {
 }
 
 .info-livelink {
-  color: #FFA70E;
-  text-decoration: underline;
-  padding: 0 5px;
+  opacity: 0.8;
+  border: 2px solid rgba(255,255,255,0.8);
+  text-decoration: none;
+  padding: 15px 5px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 35px;
+  transition: opacity 0.5s;
 }
 
 .info-livelink:hover, .info-livelink:focus {
-  text-decoration: underline;
+  transition: opacity 0.5s;
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -228,21 +214,7 @@ h1 {
   opacity: 1;
 }
 
-.work-link-github-icon {
-  width: 3vw;
-  height: 3vw;
-  min-width: 30px;
-  min-height: 30px;
-}
-
-.work-link-live {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.link-repo {
+.link-repos {
   padding: 10px 15px;
 }
 
