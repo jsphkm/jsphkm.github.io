@@ -71,7 +71,7 @@ const renderProjects = () => {
       imgsrc: './img/new/blog.png',
       title: 'Markdown Blog',
       descriptions: [
-        'SSR blog with code linting',
+        'SSR blog with syntax highlighting',
         'Includes placeholder entries for testing',
         'Built with <span class="tech">Gatsby</span>',
       ],
