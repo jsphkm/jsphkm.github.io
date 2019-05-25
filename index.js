@@ -96,7 +96,7 @@ const renderProjects = () => {
       imgsrc: './img/new/gradlabs.png',
       title: 'Gradlabs',
       descriptions: [
-        'Developed a client\'s website proposal.',
+        'Developed a corporate website for a client.',
         'Built with <span class="tech">JavaScript, SASS, HTML5</span>',
       ],
       livelink: 'https://gradlabs.netlify.com/d9cd57d07d407587f8cbb925f1d2f6c1abe34f16/index.html',
