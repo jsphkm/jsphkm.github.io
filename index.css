@@ -104,17 +104,21 @@ h1 {
   position: relative;
   width: 100%;
   height: auto;
-  padding: 65px;
+  padding: 50px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.project-image-container {
+  max-width: 300px;
+}
+
 .project-image {
   width: 100%;
   height: 100%;
-  max-width: 460px;
+  z-index: 1;
 }
 
 .info-title {
@@ -122,13 +126,14 @@ h1 {
   font-weight: 600;
   display: flex;
   justify-content: center;
-  margin-top: -52px;
+  margin-top: -32px;
 }
 
 .project-info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 15px;
 }
 
@@ -137,7 +142,7 @@ h1 {
 }
 
 .info-livelink {
-  width: 300px;
+  width: 240px;
   opacity: 0.8;
   border: 2px solid rgba(255,255,255,0.8);
   text-decoration: none;
@@ -194,10 +199,6 @@ h1 {
 
 .tech {
   font-weight: 700;
-}
-
-.project-image-container {
-  width: 400px;
 }
 
 @media screen and (min-width: 985px) {
