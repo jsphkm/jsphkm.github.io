@@ -122,7 +122,7 @@ h1 {
   font-weight: 600;
   display: flex;
   justify-content: center;
-  margin-top: -45px;
+  margin-top: -52px;
 }
 
 .project-info-container {
@@ -198,7 +198,6 @@ h1 {
 
 .project-image-container {
   width: 400px;
-  filter: drop-shadow(0 35px 25px rgba(0,0,0,0.6));
 }
 
 @media screen and (min-width: 985px) {
