@@ -14,17 +14,17 @@ const generateCard = ({
   repos,
 }) => {
   const card = createEl('li', 'project');
-  
+
   const imageContainer = createEl('div', 'project-image-container');
-  
+
   const imageLink = createEl('a', 'project-image-link');
   imageLink.setAttribute('href', livelink);
   imageLink.setAttribute('target', '_blank');
-  
+
   const image = createEl('img', 'project-image');
   image.src = imgsrc;
   imageLink.appendChild(image);
-  
+
   imageContainer.appendChild(imageLink);
   card.appendChild(imageContainer);
 
@@ -32,7 +32,7 @@ const generateCard = ({
   const infoTitle = createEl('div', 'info-title');
   infoTitle.innerHTML += title;
   infoContainer.appendChild(infoTitle);
-  
+
   const infoDescription = createEl('div', 'info-description');
   for (let i = 0; i < descriptions.length; i += 1) {
     const p = createEl('p');
