@@ -74,8 +74,8 @@ const renderProjects = () => {
       imgsrc: './img/projects/blog.png',
       title: 'Markdown Blog',
       descriptions: [
-        'SSR blog with syntax highlighting',
-        'Includes placeholder entries for testing',
+        'SSR blog with syntax highlighting.',
+        'Includes placeholder entries for testing.',
         'Built with <span class="tech">Gatsby</span>',
       ],
       livelink: 'https://inwords.netlify.com',
