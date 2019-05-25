@@ -111,57 +111,6 @@ h1 {
   align-items: center;
 }
 
-/* Alternative Colors */
-/* background-image: linear-gradient(180deg, #64b9ff, #14395d); */
-
-#projects-ul li:nth-child(1) {
-  /* background-image: -webkit-linear-gradient(180deg, #64b9ff, #14395d); */
-  /* background-image: linear-gradient(180deg, #64b9ff, #14395d); */
-  /* background: url('./img/backgrounds/blog.png') no-repeat center center fixed;
-  background-size: cover; */
-  background-color: #3479ae;
-}
-
-#projects-ul li:nth-child(2) {
-  /* background-image: -webkit-linear-gradient(180deg, #a04, #500); */
-  /* background-image: linear-gradient(180deg, #a04, #500); */
-  /* background: url('./img/backgrounds/emails.png') no-repeat center center fixed;
-  background-size: cover; */
-  background-color: #802;
-}
-
-#projects-ul li:nth-child(3) {
-  /* background-image: -webkit-linear-gradient(180deg, #5bb, #023);
-  background-image: linear-gradient(180deg, #5bb, #023); */
-  /* background: url('./img/backgrounds/gradlabs.png') no-repeat center center fixed;
-  background-size: cover; */
-  background-color: #378;
-}
-
-#projects-ul li:nth-child(4) {
-  /* background-image: -webkit-linear-gradient(180deg, #ff492d, #650010);
-  background-image: linear-gradient(180deg, #ff492d, #650010); */
-  /* background: url('./img/backgrounds/colorpicker.png') no-repeat center center fixed;
-  background-size: cover; */
-  background-color: #ba143d;
-}
-
-#projects-ul li:nth-child(5) {
-  /* background-image: -webkit-linear-gradient(180deg, #507bf9, #120123);
-  background-image: linear-gradient(180deg, #507bf9, #120123); */
-  /* background: url('./img/backgrounds/textbottle.png') no-repeat center center fixed;
-  background-size: cover; */
-  background-color: #011947;
-}
-
-#projects-ul li:nth-child(6) {
-  /* background-image: -webkit-linear-gradient(180deg, #f2cdad, #04493f);
-  background-image: linear-gradient(180deg, #f2cdad, #04493f); */
-  /* background: url('./img/backgrounds/minimap.png') no-repeat center center fixed;
-  background-size: cover; */
-  background-color: #b29d8d;
-}
-
 .project-image {
   width: 100%;
   height: 100%;
@@ -245,11 +194,6 @@ h1 {
 
 .tech {
   font-weight: 700;
-}
-
-.gradlabs, .emails {
-  max-height: 460px;
-  max-width: 380px;
 }
 
 .project-image-container {

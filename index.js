@@ -7,6 +7,7 @@ const createEl = (element, classname) => {
 };
 
 const generateCard = ({
+  bgcolor,
   imgsrc,
   title,
   descriptions,
@@ -14,6 +15,7 @@ const generateCard = ({
   repos,
 }) => {
   const card = createEl('li', 'project');
+  card.style.backgroundColor = bgcolor;
 
   const imageContainer = createEl('div', 'project-image-container');
 
@@ -68,6 +70,7 @@ const generateCard = ({
 const renderProjects = () => {
   const cards = [
     {
+      bgcolor: '#3479ae',
       imgsrc: './img/projects/blog.png',
       title: 'Markdown Blog',
       descriptions: [
@@ -81,6 +84,7 @@ const renderProjects = () => {
       },
     },
     {
+      bgcolor: '#802',
       imgsrc: './img/projects/medium.png',
       title: 'Responsive Emails',
       descriptions: [
@@ -93,6 +97,7 @@ const renderProjects = () => {
       },
     },
     {
+      bgcolor: '#378',
       imgsrc: './img/projects/gradlabs.png',
       title: 'Gradlabs',
       descriptions: [
@@ -105,6 +110,7 @@ const renderProjects = () => {
       },
     },
     {
+      bgcolor: '#ba143d',
       imgsrc: './img/projects/colorpicker.png',
       title: 'Colorpicker',
       descriptions: [
@@ -118,6 +124,7 @@ const renderProjects = () => {
       },
     },
     {
+      bgcolor: '#011947',
       imgsrc: './img/projects/textbottle.png',
       title: 'Textbottle',
       descriptions: [
@@ -130,6 +137,7 @@ const renderProjects = () => {
       },
     },
     {
+      bgcolor: '#b29d8d',
       imgsrc: './img/projects/minimap.png',
       title: 'MiniMaps',
       descriptions: [
