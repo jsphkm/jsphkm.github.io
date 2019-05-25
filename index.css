@@ -126,7 +126,7 @@ h1 {
   font-weight: 600;
   display: flex;
   justify-content: center;
-  margin-top: -32px;
+  margin-top: -38px;
 }
 
 .project-info-container {
@@ -214,5 +214,15 @@ h1 {
 
   .hero-container {
     height: 100vh;
+  }
+}
+
+@media (min-width: 400px) {
+  .project-image-container {
+    max-width: 400px;
+  }
+
+  .info-livelink {
+    width: 300px;
   }
 }
