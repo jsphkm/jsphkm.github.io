@@ -34,7 +34,7 @@ ul {
 
 h1 {
   font-weight: 900;
-  font-size: 34px;
+  font-size: 30px;
 }
 
 .hero-message-container {
@@ -42,7 +42,16 @@ h1 {
   font-weight: 900;
   font-size: 34px;
   max-width: 600px;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-message-subtitles {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.5;
 }
 
 .hero-container {
@@ -54,24 +63,24 @@ h1 {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   overflow-y: auto;
 }
 
 .hero-message {
-  max-width: 80%;
   margin: 20px 0;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .hero-profile-image {
-  float: left;
-  background-image: url("./img/DSC08872 - Square - Low Res.jpg");
+  background-image: url("./img/profile.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 180px;
-  padding-top: 180px;
+  width: 100px;
+  padding-top: 100px;
   border-radius: 100%;
   margin-bottom: 10px;
   margin-top: 40px;
@@ -80,7 +89,13 @@ h1 {
 .hero-social {
   display: flex;
   flex-direction: row;
-  margin: 30px 0;
+  margin: 10px 0;
+}
+
+.hero-social li {
+  margin: 5px 10px;
+  display: flex;
+  align-items: center;
 }
 
 .hero-social li a {
@@ -88,6 +103,12 @@ h1 {
   filter: grayscale(100%);
   opacity: 0.5;
   transition: filter 0.2s, opacity 0.2s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .hero-social li a:hover, .hero-social li a:focus {
@@ -97,7 +118,8 @@ h1 {
 }
 
 .hero-social-image {
-  height: 30px;
+  width: 30px;
+  margin: 3px;
 }
 
 .project {
