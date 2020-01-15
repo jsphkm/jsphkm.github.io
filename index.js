@@ -70,6 +70,20 @@ const generateCard = ({
 const renderProjects = () => {
   const cards = [
     {
+      bgcolor: '#063749',
+      imgsrc: './img/projects/yimbydemssd.png',
+      title: 'Yimby Dems SD',
+      descriptions: [
+        'Wordpress website for a political organization',
+        'Custom theme using Underscores and SASS',
+        'Built with Wordpress, ACF, JavaScript, and SASS',
+      ],
+      livelink: 'https://www.yimbydemssd.com',
+      repos: {
+        client: 'https://github.com/jsphkm/yimby-theme',
+      },
+    },
+    {
       bgcolor: '#3479ae',
       imgsrc: './img/projects/blog.png',
       title: 'Markdown Blog',
