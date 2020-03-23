@@ -76,7 +76,7 @@ const renderProjects = () => {
       descriptions: [
         'Wordpress website for a political organization',
         'Custom theme using Underscores',
-        'Built with Wordpress, ACF, JavaScript, and SASS',
+        'Built with <span class="tech">Wordpress, ACF, JavaScript,</span> and <span class="tech">SASS</span>',
       ],
       livelink: 'https://www.yimbydemssd.com',
       repos: {
