@@ -92,7 +92,7 @@ const renderProjects = () => {
         'Includes placeholder entries for testing.',
         'Built with <span class="tech">Gatsby</span>',
       ],
-      livelink: 'https://inwords.netlify.com',
+      livelink: 'https://inwords.now.sh',
       repos: {
         client: 'https://github.com/jsphkm/inwords',
       },
