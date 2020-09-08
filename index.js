@@ -49,19 +49,23 @@ const generateCard = ({
   infoLivelink.setAttribute('target', '_blank');
   infoContainer.appendChild(infoLivelink);
 
-  const infoLinks = createEl('div', 'info-links');
-  const linkClientRepo = createEl('a', 'link-repos');
-  linkClientRepo.innerHTML += 'Client Repo';
-  linkClientRepo.setAttribute('href', repos.client);
-  linkClientRepo.setAttribute('target', '_blank');
-  infoLinks.appendChild(linkClientRepo);
-  if (repos.server) {
-    const linkServerRepo = createEl('a', 'link-repos');
-    linkServerRepo.innerHTML += 'Server Repo';
-    linkServerRepo.setAttribute('href', repos.server);
-    infoLinks.appendChild(linkServerRepo);
+
+  if (repos) {
+    const infoLinks = createEl('div', 'info-links');
+    const linkClientRepo = createEl('a', 'link-repos');
+    linkClientRepo.innerHTML += 'Client Repo';
+    linkClientRepo.setAttribute('href', repos.client);
+    linkClientRepo.setAttribute('target', '_blank');
+    infoLinks.appendChild(linkClientRepo);
+    if (repos.server) {
+      const linkServerRepo = createEl('a', 'link-repos');
+      linkServerRepo.innerHTML += 'Server Repo';
+      linkServerRepo.setAttribute('href', repos.server);
+      infoLinks.appendChild(linkServerRepo);
+    }
+    infoContainer.appendChild(infoLinks);
   }
-  infoContainer.appendChild(infoLinks);
+
   card.appendChild(infoContainer);
 
   return card;
@@ -69,6 +73,18 @@ const generateCard = ({
 
 const renderProjects = () => {
   const cards = [
+    {
+      bgcolor: '#052515',
+      imgsrc: './img/projects/school-sp-apostle.png',
+      title: 'SP Apostle Catholic School',
+      descriptions: [
+        'Wordpress website for redesign and maintenance',
+        'Wrote custom auth header with hamburger menu',
+        'Built with <span class="tech">Wordpress, Enfold Theme, JavaScript,</span> and <span class="tech">PHP</span>',
+      ],
+      livelink: 'https://school.sp-apostle.org',
+      repos: null,
+    },
     {
       bgcolor: '#063749',
       imgsrc: './img/projects/yimbydemssd.png',
