@@ -91,7 +91,7 @@ const renderProjects = () => {
       title: 'Yimby Dems SD',
       descriptions: [
         'Wordpress website for a political organization',
-        'Made custom theme using Underscores',
+        'Made a custom theme using Underscores',
         'Built with <span class="tech">Wordpress, ACF, JavaScript,</span> and <span class="tech">SASS</span>',
       ],
       livelink: 'https://www.yimbydemssd.com',
