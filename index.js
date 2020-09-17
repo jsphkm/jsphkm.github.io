@@ -78,7 +78,7 @@ const renderProjects = () => {
       imgsrc: './img/projects/school-sp-apostle.png',
       title: 'SP Apostle Catholic School',
       descriptions: [
-        'Wordpress website for redesign and maintenance',
+        'Redesign and maintain the Wordpress website',
         'Wrote custom auth header with hamburger menu',
         'Built with <span class="tech">Wordpress, Enfold Theme, JavaScript,</span> and <span class="tech">PHP</span>',
       ],
