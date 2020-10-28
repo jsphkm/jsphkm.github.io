@@ -74,6 +74,30 @@ const generateCard = ({
 const renderProjects = () => {
   const cards = [
     {
+      bgcolor: '#5575a5',
+      imgsrc: './img/projects/genesuites.png',
+      title: 'Genesuites',
+      descriptions: [
+        'Full stack website with Node backend',
+        'Mailing list organized with PostgreSQL',
+        'Built with <span class="tech">Nextjs, Node, Express, PostgreSQL</span> on <span class="tech">Heroku</span>',
+      ],
+      livelink: 'https://genesuites.vercel.app/',
+      repos: null,
+    },
+    {
+      bgcolor: '#253555',
+      imgsrc: './img/projects/minieditor.png',
+      title: 'Minieditor',
+      descriptions: [
+        'Full stack website with PostgreSQL storage',
+        'Authentication with secure cookies',
+        'Built with <span class="tech">React, Node, Express</span> and <span class="tech">PostgreSQL</span>',
+      ],
+      livelink: 'https://minieditor.app',
+      repos: null,
+    },
+    {
       bgcolor: '#052515',
       imgsrc: './img/projects/school-sp-apostle.png',
       title: 'SP Apostle Catholic School',
