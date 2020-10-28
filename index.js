@@ -78,6 +78,7 @@ const renderProjects = () => {
       imgsrc: './img/projects/genesuites.png',
       title: 'Genesuites',
       descriptions: [
+        'Status: In Development',
         'Full stack website with Node backend',
         'Mailing list organized with PostgreSQL',
         'Built with <span class="tech">Nextjs, Node, Express, PostgreSQL</span> on <span class="tech">Heroku</span>',
@@ -90,6 +91,7 @@ const renderProjects = () => {
       imgsrc: './img/projects/minieditor.png',
       title: 'Minieditor',
       descriptions: [
+        'Status: In Development',
         'Full stack website with PostgreSQL',
         'Authentication with secure cookies',
         'Built with <span class="tech">React, Node, Express</span> and <span class="tech">PostgreSQL</span>',
