@@ -90,7 +90,7 @@ const renderProjects = () => {
       imgsrc: './img/projects/minieditor.png',
       title: 'Minieditor',
       descriptions: [
-        'Full stack website with PostgreSQL storage',
+        'Full stack website with PostgreSQL',
         'Authentication with secure cookies',
         'Built with <span class="tech">React, Node, Express</span> and <span class="tech">PostgreSQL</span>',
       ],
