@@ -86,19 +86,19 @@ const renderProjects = () => {
       livelink: 'https://genesuites.vercel.app/',
       repos: null,
     },
-    {
-      bgcolor: '#253555',
-      imgsrc: './img/projects/minieditor.png',
-      title: 'Minieditor',
-      descriptions: [
-        'Status: In Development',
-        'Full stack website with PostgreSQL',
-        'Authentication with secure cookies',
-        'Built with <span class="tech">React, Node, Express</span> and <span class="tech">PostgreSQL</span>',
-      ],
-      livelink: 'https://minieditor.app',
-      repos: null,
-    },
+    // {
+    //   bgcolor: '#253555',
+    //   imgsrc: './img/projects/minieditor.png',
+    //   title: 'Minieditor',
+    //   descriptions: [
+    //     'Status: In Development',
+    //     'Full stack website with PostgreSQL',
+    //     'Authentication with secure cookies',
+    //     'Built with <span class="tech">React, Node, Express</span> and <span class="tech">PostgreSQL</span>',
+    //   ],
+    //   livelink: 'https://minieditor.app',
+    //   repos: null,
+    // },
     {
       bgcolor: '#052515',
       imgsrc: './img/projects/school-sp-apostle.png',
