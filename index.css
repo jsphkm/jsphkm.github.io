@@ -68,6 +68,12 @@ h1 {
   overflow-y: auto;
 }
 
+.hero-message {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 .hero-profile-image {
   background-image: url("./img/profile.jpeg");
   background-position: center;
