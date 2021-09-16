@@ -7,11 +7,20 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 body > div {
   margin: 80px;
-  max-width: 800px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -20,4 +29,57 @@ a {
 
 a:hover {
   color: red;
+}
+
+.project-list {
+  padding-left: 24px;
+}
+
+.project-list li {
+  margin-bottom: 8px;
+}
+
+.hero-social-container {
+  margin-top: 40px;
+}
+
+.hero-social {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (min-width: 800px) {
+  .hero-social {
+    flex-direction: row;
+  }
+}
+
+.hero-social li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: screen;
+  padding: 14px 14px 14px 0;
+}
+
+@media (min-width: 800px) {
+  .hero-social li a {
+    padding: 14px;
+  }
+
+  .hero-social li:first-child a {
+    padding: 14px 14px 14px 0;
+  }
+
+  .hero-social li:last-child a {
+    padding: 14px 0 14px 14px;
+  }
+}
+
+.hero-social li a img {
+  height: 40px;
+  margin-right: 12px;
 }
