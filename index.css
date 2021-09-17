@@ -1,21 +1,34 @@
 body {
   background-color: #191920;
   color: #eee;
-  font-size: 24px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+  font-size: 18px;
+}
+
+@media (min-width: 800px) {
+  body {
+    font-size: 24px;
+  }
 }
 
 body > div {
-  margin: 80px;
+  margin: 40px;
   max-width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
+}
+
+@media (min-width: 800px) {
+  body > div {
+    margin: 80px;
+  }
 }
 
 ul, li {
@@ -40,7 +53,13 @@ a:hover {
 }
 
 .hero-social-container {
-  margin-top: 40px;
+  margin-top: 20px;
+}
+
+@media (min-width: 800px) {
+  .hero-social-container {
+    margin-top: 40px;
+  }
 }
 
 .hero-social {
@@ -62,7 +81,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   mix-blend-mode: screen;
-  padding: 14px 14px 14px 0;
+  padding: 10px 10px 10px 0;
 }
 
 @media (min-width: 800px) {
@@ -80,6 +99,13 @@ a:hover {
 }
 
 .hero-social li a img {
-  height: 40px;
-  margin-right: 12px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+@media (min-width: 800px) {
+  .hero-social li a img {
+    height: 40px;
+    margin-right: 12px;
+  }
 }
