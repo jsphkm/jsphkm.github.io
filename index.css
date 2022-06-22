@@ -1,3 +1,12 @@
+html {
+  font-size: 16px;
+}
+@media (min-width: 800px) {
+  body {
+    font-size: 20px;
+  }
+}
+
 body {
   background-color: black;
   color: #eee;
@@ -6,18 +15,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Serif Pro', serif;
 }
 
-@media (min-width: 800px) {
-  body {
-    font-size: 22px;
-  }
-}
 
 body > div {
   margin: 0 20px;
@@ -55,6 +58,7 @@ img {
 
 a {
   color: inherit;
+  font-weight: 700;
 }
 
 a:hover {
